@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WEBSITE THAT SHOWS GOOD CARS IN INDIA</title>
+  <style>
+    body {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+      margin: 5px;
+      padding: 40px;
+      background: url('bg.jpeg');
+      background-size: cover;
+      font-size: 20px;
+    }
+    header {
+      background:orange;
+      color: white;
+      padding: 22px;
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+      gap: 30px;
+      max-width: 1402px;
+      margin: 0 auto;
+    }
+    .car-item {
+      background-color: grey;
+      padding: 15px;
+      border: 2px solid orangered;
+      text-align: center;
+    }
+    .car-item img {
+      width: 400px;
+      height: auto;
+      border: 1px solid grey;
+      transition: transform 0.3s ease;
+    }
+    .car-item img:hover {
+      transform: scale(2.00);
+    }
+    .car-box {
+      background: yellow;
+      padding: 15px;
+      margin-top: 10px;
+    }
+    .car-box a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .car-box a:visited {
+      color: purple;
+    }
+    .car-box a:hover {
+      color: red;
+    }
+    .car-box a:active {
+      color: green;
+    }
+    .favorite-car {
+      margin-top: 40px;
+      padding: 20px;
+      background: whitesmoke;
+      text-align: center;
+    }
+    .favorite-car input[type="text"] {
+      padding: 15px;
+      font-size: 18px;
+      margin-right: 10px;
+      width: 300px;
+    }
+    .favorite-car button {
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    pickyourcar.com
+  </header>
+  <section class="car-grid">
+    <div class="car-item">
+      <img src="tata.jpeg" alt="Tata">
+      <div class="car-box">
+        <h3>Tata</h3>
+        <p>Tata is known for its reliability and value-for-money.</p>
+        <a href="https://www.tatamotors.com/" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+    <div class="car-item">
+      <img src="audi.jpeg" alt="Audi">
+      <div class="car-box">
+        <h3>Audi</h3>
+        <p>Audi stands for luxury and performance.</p>
+        <a href="cars.com" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+    <div class="car-item">
+      <img src="bmw.jpeg" alt="BMW">
+      <div class="car-box">
+        <h3>BMW</h3>
+        <p>BMW combines performance with style.</p>
+        <a href="https://www.bmw.com/" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+    <div class="car-item">
+      <img src="maruti.jpeg" alt="Maruti">
+      <div class="car-box">
+        <h3>Maruti</h3>
+        <p>Maruti is known for affordability and efficiency.</p>
+        <a href="https://www.marutisuzuki.com/" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+    <div class="car-item">
+      <img src="honda.jpeg" alt="Honda">
+      <div class="car-box">
+        <h3>Honda</h3>
+        <p>Honda offers a balanced ride and comfort.</p>
+        <a href="https://www.honda.com/" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+    <div class="car-item">
+      <img src="totyat.jpeg" alt="Toyota">
+      <div class="car-box">
+        <h3>Toyota</h3>
+        <p>Toyota stands for durability and reliability.</p>
+        <a href="https://www.toyota.com/" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+    <div class="car-item">
+      <img src="hyun.jpeg" alt="Hyundai">
+      <div class="car-box">
+        <h3>Hyundai</h3>
+        <p>Hyundai offers modern design and technology.</p>
+        <a href="https://www.hyundai.com/" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+    <div class="car-item">
+      <img src="ford.jpeg" Ford">
+      <div class="car-box">
+        <h3>Ford</h3>
+        <p>Ford is known for innovation in engineering.</p>
+        <a href="https://www.ford.com/" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+    <div class="car-item">
+      <img src="chev.jpeg" alt="Chevrolet">
+      <div class="car-box">
+        <h3>Chevrolet</h3>
+        <p>Chevrolet combines style, performance, and comfort.</p>
+        <a href="https://www.chevrolet.com/" target="_blank">Visit Official Site</a>
+      </div>
+    </div>
+  </section>
+  
+  
+</body>
+</html>
